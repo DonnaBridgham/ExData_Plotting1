@@ -1,4 +1,4 @@
-## Get Dataset
+ ## Get Datasetfrom the directory
 
 data_full <- read.csv("./household_power_consumption.txt", header=T, sep=';', na.strings="?", 
 
@@ -60,7 +60,8 @@ with(data, {
 
 ## Save
 
-dev.copy(png, file="plot4.png", height=480, width=480)
+dev.copy(png, file="plot4.png")
 
+##Close
 
 dev.off
